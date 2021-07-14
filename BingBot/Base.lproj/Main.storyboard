@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BingBot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="JCQ-i6-F2F">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BingeBot🤖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0u-t7-JqZ">
+                                <rect key="frame" x="142.33333333333337" y="0.0" width="129.66666666666663" height="28.666666666666668"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="uCw-nc-0E9">
+                                <rect key="frame" x="20" y="48.666666666666671" width="374" height="49.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lco-fW-8g6">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scandals , Rick and Morty , Adventure time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="737-1W-H3e">
+                                        <rect key="frame" x="0.0" y="29.333333333333336" width="374" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AFP-MN-oDh">
+                                <rect key="frame" x="20" y="118.33333333333334" width="374" height="289.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="Zmp-9f-QKZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="178.33333333333334"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bing bot has spoken, you should watch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-N1-Ed9">
+                                                <rect key="frame" x="24" y="0.0" width="326.33333333333331" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adventure Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="jmj-4Z-afX">
+                                                <rect key="frame" x="85.333333333333329" y="61.333333333333329" width="203.33333333333337" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvX-E6-V2K">
+                                                <rect key="frame" x="91" y="138.33333333333337" width="192" height="40"/>
+                                                <state key="normal" image="binge-btn"/>
+                                                <connections>
+                                                    <action selector="randomBingeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8N-zT-6uv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jzh-A4-uvT">
+                                        <rect key="frame" x="0.0" y="198.33333333333337" width="374" height="91"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a binge worthy show" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lwD-aD-ae7">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYp-6U-QEB">
+                                                <rect key="frame" x="0.0" y="51" width="374" height="40"/>
+                                                <state key="normal" image="add-show-btn"/>
+                                                <connections>
+                                                    <action selector="addShowBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kiK-Yc-EJn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uCw-nc-0E9" secondAttribute="trailing" constant="20" id="1UC-bo-bZk"/>
+                            <constraint firstItem="JCQ-i6-F2F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CwE-D7-5cI"/>
+                            <constraint firstItem="s0u-t7-JqZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Df9-Uh-bmS"/>
+                            <constraint firstItem="JCQ-i6-F2F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dlg-HW-bHi"/>
+                            <constraint firstItem="uCw-nc-0E9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OGg-qh-40S"/>
+                            <constraint firstItem="AFP-MN-oDh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Y8m-jh-e5D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AFP-MN-oDh" secondAttribute="trailing" constant="20" id="aYX-MV-1Uy"/>
+                            <constraint firstItem="JCQ-i6-F2F" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ado-SJ-IK4"/>
+                            <constraint firstItem="uCw-nc-0E9" firstAttribute="top" secondItem="s0u-t7-JqZ" secondAttribute="bottom" constant="20" id="d5x-KR-fGE"/>
+                            <constraint firstItem="AFP-MN-oDh" firstAttribute="top" secondItem="uCw-nc-0E9" secondAttribute="bottom" constant="20" id="fqO-tR-aiw"/>
+                            <constraint firstItem="s0u-t7-JqZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="s0D-F7-G9k"/>
+                            <constraint firstAttribute="bottom" secondItem="JCQ-i6-F2F" secondAttribute="bottom" id="zWl-Vm-JsW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addShowBtn" destination="cYp-6U-QEB" id="Oif-e5-0F5"/>
+                        <outlet property="addShowStackView" destination="Jzh-A4-uvT" id="jbl-ww-aH7"/>
+                        <outlet property="addShowTextField" destination="lwD-aD-ae7" id="5db-j9-SE4"/>
+                        <outlet property="bingBotSpokenLabel" destination="gGj-N1-Ed9" id="xYH-2S-K5Y"/>
+                        <outlet property="randomShowLabel" destination="jmj-4Z-afX" id="0dt-se-k19"/>
+                        <outlet property="randomShowStackView" destination="Zmp-9f-QKZ" id="s0p-Qu-7st"/>
+                        <outlet property="showsLabel" destination="737-1W-H3e" id="caV-ax-etc"/>
+                        <outlet property="showsStackView" destination="uCw-nc-0E9" id="2Ef-u5-3nT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="78.260869565217391"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add-show-btn" width="192" height="40"/>
+        <image name="bg" width="375" height="667"/>
+        <image name="binge-btn" width="192" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
